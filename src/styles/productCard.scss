@@ -2,7 +2,10 @@
 
 .productCard-body {
     border-radius: 1rem;
+    width: 250px;
     padding: 0.5rem;
+    height: 500px;
+   
 }
 
 .productCard-body:hover {
@@ -13,8 +16,8 @@
 .productCard-img {
     text-align: center;
     margin: auto;
-    padding: 0.5rem;
-    max-width: 300px;
+    width: 250px;
+    height: 300px;
 }
 
 .productCard-name,.productCard-desc,.productCard-price,.productCard-sale-price {

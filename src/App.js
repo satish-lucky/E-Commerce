@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/routing/home";
 import About from "./components/routing/about";
 import Shop from "./components/routing/shop";
+import ProductDetails from "./components/routing/productDetails";
 
 function App() {
   const [cart, setCart] = useState({
@@ -21,6 +22,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/about" element={<About />} />
+          <Route path="/product/:productId" element={<ProductDetails/>}/>
         </Routes>
       </CartContext.Provider>
     </div>
